@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+
+
+import { Product } from './../../interfaces';
 
 @Component({
   selector: 'app-product',
@@ -6,19 +9,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./product.component.css']
 })
 export class ProductComponent implements OnInit {
-  public name: string = 'Shonebud';
-  public description: string = 'The best available product';
-  public price: number = 25;
-  // public category: enum (Создайте enum с несколькими категориями)
-  public isAvailable: boolean = true;
+  @Input() product: Product;
+  @Output() buyProduct: EventEmitter<Product> = new EventEmitter<Product>();
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
-  onBuy(): void {
-    console.log('You have bought a product!');
+  onBuy(product: Product): void {
+    console.log('You have bought a product!', product);
+    this.buyProduct.emit(product);
   }
 
 }
