@@ -23,7 +23,6 @@ export class ProductListComponent implements OnInit {
   }
 
   onBuyProduct(product: Product) {
-    console.log('Product bought', product);
     this.cartService.addToCart(product);
   }
 }

@@ -77,43 +77,43 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     price: 512
   }, {
-    category: 'Flat Screen Monitors',
+    category: 'Flat',
     name: 'Ergo Screen E-I',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 230
   }, {
-    category: 'Flat Screen Monitors',
-    name: 'Ergo Screen E-II',
+    category: 'Flat',
+    name: 'Ergo',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 285
   }, {
-    category: 'Flat Screen Monitors',
-    name: 'Ergo Screen E-III',
+    category: 'Flat',
+    name: 'Ergo',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 345
   }, {
-    category: 'Flat Screen Monitors',
-    name: 'Flat Basic',
+    category: 'Flat',
+    name: 'Flat',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 399
   }, {
-    category: 'Flat Screen Monitors',
-    name: 'Flat Future',
+    category: 'Flat',
+    name: 'Flat',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 430
   }, {
-    category: 'Flat Screen Monitors',
-    name: 'Flat XL',
+    category: 'Flat',
+    name: 'Flat',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
@@ -161,14 +161,14 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     price: 170
   }, {
-    category: 'Multifunction Printers',
+    category: 'Multifunction',
     name: 'Multi Print',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 99,
   }, {
-    category: 'Multifunction Printers',
+    category: 'Multifunction',
     name: 'Multi Color',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
@@ -238,35 +238,35 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     price: 129
   }, {
-    category: 'Computer System Accessories',
+    category: 'Computer',
     name: 'Universal card reader',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 14
   }, {
-    category: 'Graphic Cards',
+    category: 'Graphic',
     name: 'Proctra X',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 70
   }, {
-    category: 'Graphic Cards',
+    category: 'Graphic',
     name: 'Gladiator MX',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 81
   }, {
-    category: 'Graphic Cards',
+    category: 'Graphic',
     name: 'Hurricane GX',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 101
   }, {
-    category: 'Graphic Cards',
+    category: 'Graphic',
     name: 'Hurricane GX/LN',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
@@ -301,7 +301,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     price: 189
   }, {
-    category: 'Multifunction Printers',
+    category: 'Multifunction',
     name: 'Copymaster',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
@@ -385,35 +385,35 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     price: 29
   }, {
-    category: 'Computer System Accessories',
+    category: 'Computer',
     name: 'PC Lock',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 89,
   }, {
-    category: 'Computer System Accessories',
+    category: 'Computer',
     name: 'Notebook Lock',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 6
   }, {
-    category: 'Computer System Accessories',
+    category: 'Computer',
     name: 'Web cam reality',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 39,
   }, {
-    category: 'Computer System Accessories',
+    category: 'Computer',
     name: 'Screen clean',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 23,
   }, {
-    category: 'Computer System Accessories',
+    category: 'Computer',
     name: 'Fabric bag professional',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
@@ -441,7 +441,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     price: 69
   }, {
-    category: 'Computer System Accessories',
+    category: 'Computer',
     name: 'USB Stick',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
@@ -455,8 +455,8 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     price: 29
   }, {
-    category: 'Flat Screen Monitors',
-    name: 'Flat XXL',
+    category: 'Flat',
+    name: 'Flat',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
@@ -497,22 +497,22 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     price: 250
   }, {
-    category: 'Flat Screen TVs',
-    name: 'Flat Watch HD32',
+    category: 'Flat',
+    name: 'Flat',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 145
   }, {
-    category: 'Flat Screen TVs',
-    name: 'Flat Watch HD37',
+    category: 'Flat',
+    name: 'Flat',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 119
   }, {
-    category: 'Flat Screen TVs',
-    name: 'Flat Watch HD41',
+    category: 'Flat',
+    name: 'Flat',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
@@ -672,28 +672,28 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     price: 2499
   }, {
-    category: 'Desktop Computers',
+    category: 'Desktop',
     name: 'Gaming Monster Pro',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 170
   }, {
-    category: 'Desktop Computers',
+    category: 'Desktop',
     name: 'Gaming Monster',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 120
   }, {
-    category: 'Desktop Computers',
+    category: 'Desktop',
     name: 'Family PC Pro',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 900,
   }, {
-    category: 'Desktop Computers',
+    category: 'Desktop',
     name: 'Family PC Basic',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
@@ -749,14 +749,14 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     price: 749,
   }, {
-    category: 'Smartphones and Tablets',
+    category: 'Smartphones',
     name: 'Smartphone Beta',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 30,
   }, {
-    category: 'Smartphones and Tablets',
+    category: 'Smartphones',
     name: 'e-Book Reader ReadMe',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
@@ -784,14 +784,14 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     price: 138
   }, {
-    category: 'Smartphones and Tablets',
+    category: 'Smartphones',
     name: 'Mini Tablet',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 833,
   }, {
-    category: 'Smartphones and Tablets',
+    category: 'Smartphones',
     name: 'Smartphone Alpha',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
@@ -812,7 +812,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     price: 98
   }, {
-    category: 'Smartphones and Tablets',
+    category: 'Smartphones',
     name: 'Astro Phone 6',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
@@ -826,35 +826,35 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     price: 97
   }, {
-    category: 'Flat Screens',
+    category: 'Flat',
     name: 'Bending Screen 21HD',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 250
   }, {
-    category: 'Flat Screens',
+    category: 'Flat',
     name: 'Broad Screen 22HD',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 270
   }, {
-    category: 'Smartphones and Tablets',
+    category: 'Smartphones',
     name: 'Cerdik Phone 7',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 549,
   }, {
-    category: 'Smartphones and Tablets',
+    category: 'Smartphones',
     name: 'Cepat Tablet 105',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
     price: 549,
   }, {
-    category: 'Smartphones and Tablets',
+    category: 'Smartphones',
     name: 'Cepat Tablet 8',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
