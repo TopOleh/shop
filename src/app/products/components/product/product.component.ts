@@ -18,6 +18,7 @@ export class ProductComponent implements OnInit {
 
   onBuy(product: Product): void {
     console.log('You have bought a product!', product);
+    product.bought = true;
     this.buyProduct.emit(product);
   }
 

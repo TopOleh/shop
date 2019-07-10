@@ -1,4 +1,4 @@
-<div>
+<div class="product-wrapper">
   <h4>{{product.name}}</h4>
   <p>{{product.description}}</p>
   <p><b>{{product.dependsOn}}</b></p>
@@ -6,5 +6,17 @@
   <p><b>{{product.price}}</b></p>
   <p><b>{{product.isAvailable}}</b></p>
 
-  <button (click)="onBuy(product)">Buy</button>
+  <ng-container *ngIf="!product.bought; then inStock; else outOfStock"></ng-container>
+  <ng-template #inStock>
+    <button *ngIf="!product.bought" (click)="onBuy(product)">
+      Buy
+    </button>
+
+  </ng-template>
+  <ng-template #outOfStock>
+    <span>
+      Bought
+    </span>
+  </ng-template>
+
 </div>

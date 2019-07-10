@@ -14,6 +14,9 @@ import {
   imports: [
     CommonModule
   ],
-  exports: [ ProductListComponent ]
+  exports: [
+    ProductComponent,
+    ProductListComponent
+  ]
 })
 export class ProductsModule {}

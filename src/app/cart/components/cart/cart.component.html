@@ -1,1 +1,4 @@
-<p>cart works!</p>
+<ng-container *ngIf="boughtProducts" >
+  <app-product *ngFor="let product of boughtProducts" [product]="product"></app-product>
+</ng-container>
+
