@@ -1,4 +1,3 @@
-<ng-container *ngIf="boughtProducts" >
+<div class="cart-list" *ngIf="boughtProducts">
   <app-product *ngFor="let product of boughtProducts" [product]="product"></app-product>
-</ng-container>
-
+</div>

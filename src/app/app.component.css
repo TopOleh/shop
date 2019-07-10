@@ -1,0 +1,11 @@
+.product-dashboard {
+  display: flex;
+  width: 100%;
+}
+.product-dashboard__list {
+  width: 70%;
+}
+
+.product-dashboard__cart {
+  width: 30%;
+}
