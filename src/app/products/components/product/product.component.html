@@ -1,0 +1,30 @@
+<div class="product-wrapper">
+  <h4>{{product.name}}</h4>
+  <p>{{product.description}}</p>
+  <p><b>{{product.dependsOn}}</b></p>
+  <p><b>{{product.category}}</b></p>
+
+  <div  class="product-bottom__wrapper">
+    <div *ngIf="product.isAvailable" class="product__price">
+      <span>Price: </span>
+      <div>
+        {{product.price}}
+      </div>
+    </div>
+
+    <ng-container *ngIf="product.isAvailable; then inStock; else outOfStock"></ng-container>
+    <ng-template #inStock>
+      <button class="product__buy" (click)="onBuy(product)">
+        Buy
+      </button>
+    </ng-template>
+
+    <ng-template #outOfStock>
+      <span class="product__bought">
+        Bought
+      </span>
+    </ng-template>
+  </div>
+
+
+</div>

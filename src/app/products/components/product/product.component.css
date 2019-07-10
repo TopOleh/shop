@@ -1,0 +1,36 @@
+.product-wrapper {
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  box-shadow: 0px 0px 10px -1px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 150px;
+  height: 300px;
+}
+
+.product-bottom__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  width: 150px;
+}
+
+.product__bought {
+  width: 100%;
+  text-align: center;
+  background-color: yellow;
+  padding: 10px;
+}
+
+
+.product__buy {
+  border: none;
+  background-color: lightseagreen;
+  box-shadow: 0px 0px 10px -1px;
+  border-radius: 10px;
+  width: 50%;
+}
