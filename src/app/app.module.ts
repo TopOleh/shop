@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { ProductsModule } from './products/products.module';
 
 import { AppComponent } from './app.component';
+import { CartModule } from './cart/cart.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
 
-    ProductsModule
+    ProductsModule,
+    CartModule
   ],
   providers: [],
   bootstrap: [AppComponent]
