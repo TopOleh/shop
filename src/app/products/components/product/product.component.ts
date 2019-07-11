@@ -19,7 +19,7 @@ export class ProductComponent implements OnInit {
 
   onBuy(product: Product): void {
     console.log('You have bought a ', product);
-    product.isAvailable = false;
+    product.isAvailable = false;  // компонент не владелец данных, не должен их менять.
     this.buyProduct.emit(product);
   }
 
