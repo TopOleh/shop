@@ -1,3 +1,6 @@
-<div class="cart-list" *ngIf="boughtProducts">
+<div class="cart-list" *ngIf="boughtProducts.length">
   <app-product *ngFor="let product of boughtProducts" [product]="product"></app-product>
+  <div>
+    <p>You have already bought for: {{ sum }}</p>
+  </div>
 </div>
