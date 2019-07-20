@@ -10,7 +10,15 @@ export class CartService {
   constructor() { }
 
   addToCart(product: Product) {
-    this.boughtProducts.push(product);
+    const sameProduct: Product[] = this.boughtProducts.filter((p: Product) => p.name === product.name);
+
+    if (sameProduct.length) {
+      sameProduct[0].amount += 1;
+    } else {
+      const boughtProd: Product = Object.create(product);
+      boughtProd.amount = 1;
+      this.boughtProducts.push(boughtProd);
+    }
   }
 
   getBoughtProducts(): Product[] {
