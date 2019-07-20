@@ -28,4 +28,8 @@ export class CartService {
   calcCartSum(products: Product[]): number {
     return products.reduce((acc: number, val: Product) => acc + (val.price * val.amount), 0);
   }
+
+  calcCartAmount(products: Product[]): number {
+    return products.reduce((acc: number, val: Product) => acc + val.amount, 0);
+  }
 }

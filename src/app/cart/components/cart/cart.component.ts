@@ -12,6 +12,7 @@ export class CartComponent implements OnInit, DoCheck {
 
   public boughtProducts: Product[];
   public sum: number;
+  public cartItems: number;
 
   constructor(private cartService: CartService) { }
 
@@ -21,6 +22,7 @@ export class CartComponent implements OnInit, DoCheck {
 
   ngDoCheck() {
     this.sum = this.cartService.calcCartSum(this.boughtProducts);
+    this.cartItems = this.cartService.calcCartAmount(this.boughtProducts);
   }
 
 }
