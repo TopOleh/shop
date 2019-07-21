@@ -1,5 +1,5 @@
 import { Injectable, OnInit } from '@angular/core';
-import { Product } from 'src/app/products/interfaces';
+import { Product } from 'src/app/core/interfaces';
 import { ProductService } from 'src/app/products/services';
 
 @Injectable({

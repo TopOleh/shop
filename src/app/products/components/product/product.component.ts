@@ -1,7 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 
-import { Product } from './../../interfaces';
+import { Product } from '../../../core/interfaces';
 
 @Component({
   selector: 'app-product',

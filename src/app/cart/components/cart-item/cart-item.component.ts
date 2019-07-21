@@ -1,4 +1,4 @@
-import { Product } from 'src/app/products/interfaces';
+import { Product } from 'src/app/core/interfaces';
 import { Component, OnInit, EventEmitter, Output, Input } from '@angular/core';
 
 @Component({
