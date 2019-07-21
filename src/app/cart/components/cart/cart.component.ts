@@ -1,4 +1,4 @@
-import { Product } from './../../../products/interfaces/product';
+import { Product } from 'src/app/core/interfaces';
 import { Component, OnInit, DoCheck } from '@angular/core';
 
 import { CartService } from './../../services';
