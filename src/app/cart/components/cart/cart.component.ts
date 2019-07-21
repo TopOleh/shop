@@ -17,7 +17,7 @@ export class CartComponent implements OnInit, DoCheck {
   constructor(private cartService: CartService) { }
 
   ngOnInit() {
-    this.boughtProducts = this.cartService.getBoughtProducts();
+    this.boughtProducts = this.cartService.getAllBoughtProducts();
   }
 
   ngDoCheck() {
@@ -31,5 +31,9 @@ export class CartComponent implements OnInit, DoCheck {
 
   increseProduct(product: Product): void {
     this.cartService.increseProductAmount(product);
+  }
+
+  removeProduct(product: Product): void {
+    this.cartService.removeProduct(product);
   }
 }

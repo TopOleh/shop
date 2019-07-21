@@ -7,15 +7,15 @@ import { ProductService } from 'src/app/products/services';
 })
 export class CartService {
   public boughtProducts: Product[] = [];
-  public productList: Product[] = this.productService.getProducts();
+  public productList: Product[] = this.productService.getAllProducts();
 
   constructor(private productService: ProductService) { }
 
-  addToCart(product: Product) {
-    const sameProduct: Product[] = this.boughtProducts.filter((p: Product) => p.name === product.name);
+  addToCart(product: Product): void {
+    const sameProduct: Product = this.getBoughtProduct(product);
 
-    if (sameProduct.length) {
-      sameProduct[0].amount += 1;
+    if (sameProduct) {
+      sameProduct.amount += 1;
     } else {
       const boughtProd: Product = Object.create(product);
       boughtProd.amount = 1;
@@ -23,7 +23,11 @@ export class CartService {
     }
   }
 
-  getBoughtProducts(): Product[] {
+  getBoughtProduct(product: Product): Product {
+    return this.boughtProducts.filter((p: Product) => p.name === product.name)[0];
+  }
+
+  getAllBoughtProducts(): Product[] {
     return this.boughtProducts;
   }
 
@@ -35,30 +39,39 @@ export class CartService {
     return products.reduce((acc: number, val: Product) => acc + val.amount, 0);
   }
 
-  decreseProductAmount(product: Product) {
-    const productInList = this.productList.filter((p: Product) => p.name === product.name);
+  decreseProductAmount(product: Product): void {
+    const productInList: Product = this.productService.getProduct(product);
 
     product.amount -= 1;
-    productInList[0].amount += 1;
+    productInList.amount += 1;
 
     if (product.amount <= 0) {
-      const prodToRemove = this.boughtProducts.indexOf(product);
-      this.boughtProducts.splice(prodToRemove, 1);
+      this.removeProduct(product);
     }
 
-    if (productInList[0].amount > 0) {
-      productInList[0].isAvailable = true;
+    if (productInList.amount > 0) {
+      productInList.isAvailable = true;
     }
   }
 
-  increseProductAmount(product: Product) {
-    const productInList = this.productList.filter((p: Product) => p.name === product.name);
+  increseProductAmount(product: Product): void {
+    const productInList: Product = this.productService.getProduct(product);
 
     product.amount += 1;
-    productInList[0].amount -= 1;
+    productInList.amount -= 1;
 
-    if (productInList[0].amount === 0) {
-      productInList[0].isAvailable = false;
+    if (productInList.amount === 0) {
+      productInList.isAvailable = false;
     }
+  }
+
+  removeProduct(product: Product): void {
+    const prodToRemove: number = this.boughtProducts.indexOf(product);
+    const productInList: Product = this.productService.getProduct(product);
+
+    this.boughtProducts.splice(prodToRemove, 1);
+
+    productInList.amount += product.amount;
+    productInList.isAvailable = true;
   }
 }

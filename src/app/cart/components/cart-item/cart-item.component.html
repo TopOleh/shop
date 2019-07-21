@@ -6,6 +6,9 @@
   <p><b>{{product.category}}</b></p>
   <p><b>{{product.amount}}</b></p>
 
+  <button class="product__buy" (click)="onRemove(product)">
+    remove
+  </button>
   <div class="product-bottom__wrapper">
     <div class="product__price">
       <span>Price: </span>

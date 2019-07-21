@@ -11,11 +11,15 @@ export class ProductService {
 
   constructor() { }
 
-  getProducts(): Product[] {
+  getAllProducts(): Product[] {
     return PRODUCTS_LIST.map(product => {
       const newCategory = Categories[product.category];
       product.category = newCategory;
       return product;
     });
+  }
+
+  getProduct(product: Product): Product {
+    return PRODUCTS_LIST.filter((p: Product) => p.name === product.name)[0];
   }
 }

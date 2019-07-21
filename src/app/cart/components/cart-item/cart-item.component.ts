@@ -11,6 +11,7 @@ export class CartItemComponent implements OnInit {
   @Input() product: Product;
   @Output() decrese: EventEmitter<Product> = new EventEmitter<Product>();
   @Output() increse: EventEmitter<Product> = new EventEmitter<Product>();
+  @Output() remove: EventEmitter<Product> = new EventEmitter<Product>();
 
   constructor() { }
 
@@ -23,5 +24,9 @@ export class CartItemComponent implements OnInit {
 
   onIncrese(product: Product) {
     this.increse.emit(product);
+  }
+
+  onRemove(product: Product) {
+    this.remove.emit(product);
   }
 }

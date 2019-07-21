@@ -2,6 +2,7 @@
   <app-cart-item
     *ngFor="let product of boughtProducts"
     [product]="product"
+    (remove)="removeProduct(product)"
     (increse)="increseProduct(product)"
     (decrese)="decreseProduct(product)">
   </app-cart-item>
