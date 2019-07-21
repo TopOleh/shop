@@ -1,12 +1,13 @@
 <div class="product-wrapper">
+  cart
   <h4>{{product.name}}</h4>
   <p>{{product.description}}</p>
   <p><b>{{product.dependsOn}}</b></p>
   <p><b>{{product.category}}</b></p>
   <p><b>{{product.amount}}</b></p>
 
-  <div  class="product-bottom__wrapper">
-    <div *ngIf="product.isAvailable" class="product__price">
+  <div class="product-bottom__wrapper">
+    <div class="product__price">
       <span>Price: </span>
       <div>
         {{product.price}}
@@ -15,12 +16,20 @@
 
     <ng-container *ngIf="product.isAvailable; then inStock; else outOfStock"></ng-container>
     <ng-template #inStock>
-      <button class="product__buy" (click)="onBuy(product)">
-        Buy
+      <button class="product__buy" (click)="onDecrese(product)">
+        -
+      </button>
+
+      <button class="product__buy" (click)="onIncrese(product)">
+        +
       </button>
     </ng-template>
 
     <ng-template #outOfStock>
+      <button class="product__buy" (click)="onDecrese(product)">
+        -
+      </button>
+
       <span class="product__bought">
         Bought all
       </span>

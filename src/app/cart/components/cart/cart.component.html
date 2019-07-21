@@ -1,5 +1,11 @@
 <div class="cart-list" *ngIf="boughtProducts.length">
-  <app-product *ngFor="let product of boughtProducts" [product]="product"></app-product>
+  <app-cart-item
+    *ngFor="let product of boughtProducts"
+    [product]="product"
+    (increse)="increseProduct(product)"
+    (decrese)="decreseProduct(product)">
+  </app-cart-item>
+
   <div>
     <p>You have already bought {{ cartItems }} sum: {{ sum }}</p>
   </div>

@@ -25,4 +25,11 @@ export class CartComponent implements OnInit, DoCheck {
     this.cartItems = this.cartService.calcCartAmount(this.boughtProducts);
   }
 
+  decreseProduct(product: Product): void {
+    this.cartService.decreseProductAmount(product);
+  }
+
+  increseProduct(product: Product): void {
+    this.cartService.increseProductAmount(product);
+  }
 }
