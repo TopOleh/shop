@@ -1,14 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ProductAvailableDirective } from './directives';
 
-
+import { ProductHoverDirective } from './directives';
 
 @NgModule({
-  declarations: [ProductAvailableDirective],
+  declarations: [ProductHoverDirective],
   imports: [
     CommonModule
   ],
-  exports: [ProductAvailableDirective]
+  exports: [ProductHoverDirective]
 })
 export class SharedModule { }

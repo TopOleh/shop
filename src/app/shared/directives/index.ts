@@ -1,1 +1,1 @@
-export * from './product-available.directive';
+export * from './product-hover.directive';

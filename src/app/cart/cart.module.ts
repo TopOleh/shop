@@ -5,6 +5,7 @@ import { ProductsModule } from './../products/products.module';
 
 import { CartComponent } from './components/cart/cart.component';
 import { CartItemComponent } from './components/cart-item/cart-item.component';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 
 
@@ -12,7 +13,8 @@ import { CartItemComponent } from './components/cart-item/cart-item.component';
   declarations: [CartComponent, CartItemComponent],
   imports: [
     CommonModule,
-    ProductsModule
+    ProductsModule,
+    SharedModule
   ],
   exports: [CartComponent]
 })
