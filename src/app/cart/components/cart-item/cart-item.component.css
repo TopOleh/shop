@@ -1,4 +1,4 @@
-.product-wrapper {
+.product-item {
   display: flex;
   flex-flow: column;
   position: relative;

@@ -1,18 +1,18 @@
-<div class="product-wrapper">
-  <h4>{{product.name}}</h4>
-  <p>{{product.description}}</p>
-  <p><b>{{product.dependsOn}}</b></p>
-  <p><b>{{product.category}}</b></p>
-  <p><b>{{product.amount}}</b></p>
+<div class="product-item">
+  <h4 class="product-item__title">{{product.name}}</h4>
+  <div>
+    <p>{{product.description}}</p>
+    <p>{{product.dependsOn}}</p>
+    <p>{{product.category}}</p>
+  </div>
+
+  <div>
+    <span>Price: <b>{{product.price}}</b></span>
+    <p *ngIf="product.isAvailable">Available: <b>{{product.amount}}</b></p>
+  </div>
+
 
   <div  class="product-bottom__wrapper">
-    <div *ngIf="product.isAvailable" class="product__price">
-      <span>Price: </span>
-      <div>
-        {{product.price}}
-      </div>
-    </div>
-
     <ng-container *ngIf="product.isAvailable; then inStock; else outOfStock"></ng-container>
     <ng-template #inStock>
       <button class="product__buy" (click)="onBuy(product)">
