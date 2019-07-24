@@ -19,17 +19,17 @@
 
     <ng-container *ngIf="product.isAvailable; then inStock; else outOfStock"></ng-container>
     <ng-template #inStock>
-      <button class="product__buy" (click)="onDecrese(product)">
+      <button class="product__buy" (click)="onDecrease(product)">
         -
       </button>
 
-      <button class="product__buy" (click)="onIncrese(product)">
+      <button class="product__buy" (click)="onIncrease(product)">
         +
       </button>
     </ng-template>
 
     <ng-template #outOfStock>
-      <button class="product__buy" (click)="onDecrese(product)">
+      <button class="product__buy" (click)="onDecrease(product)">
         -
       </button>
 

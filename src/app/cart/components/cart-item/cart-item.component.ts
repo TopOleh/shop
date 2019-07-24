@@ -9,8 +9,8 @@ import { Component, OnInit, EventEmitter, Output, Input } from '@angular/core';
 export class CartItemComponent implements OnInit {
 
   @Input() product: Product;
-  @Output() decrese: EventEmitter<Product> = new EventEmitter<Product>();
-  @Output() increse: EventEmitter<Product> = new EventEmitter<Product>();
+  @Output() decrease: EventEmitter<Product> = new EventEmitter<Product>();
+  @Output() increase: EventEmitter<Product> = new EventEmitter<Product>();
   @Output() remove: EventEmitter<Product> = new EventEmitter<Product>();
 
   constructor() { }
@@ -18,12 +18,12 @@ export class CartItemComponent implements OnInit {
   ngOnInit() {
   }
 
-  onDecrese(product: Product) {
-    this.decrese.emit(product);
+  onDecrease(product: Product) {
+    this.decrease.emit(product);
   }
 
-  onIncrese(product: Product) {
-    this.increse.emit(product);
+  onIncrease(product: Product) {
+    this.increase.emit(product);
   }
 
   onRemove(product: Product) {
