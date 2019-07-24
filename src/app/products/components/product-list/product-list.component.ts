@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Product } from 'src/app/core/interfaces';
+// rxjs
+import { Observable } from 'rxjs';
 
+import { Product } from 'src/app/core/interfaces';
 import { ProductService } from '../../services';
 import { CartService } from './../../../cart/services/';
 
@@ -12,7 +14,7 @@ import { CartService } from './../../../cart/services/';
 })
 export class ProductListComponent implements OnInit {
 
-  public products: Product[];
+  public products: Observable<Product[]>;
   constructor(
     private productService: ProductService,
     private cartService: CartService

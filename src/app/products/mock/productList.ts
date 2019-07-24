@@ -1,4 +1,4 @@
-export const PRODUCTS_LIST = [{
+export const PRODUCT_LIST = [{
     category: 'Laptops',
     name: 'Notebook Basic 15',
     dependsOn: ['electricity', 'space', 'user managing'],
