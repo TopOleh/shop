@@ -1,4 +1,4 @@
-import { Injectable, OnInit } from '@angular/core';
+import { Injectable } from '@angular/core';
 import { Product } from 'src/app/core/interfaces';
 import { ProductService } from 'src/app/products/services';
 
@@ -6,6 +6,8 @@ import { ProductService } from 'src/app/products/services';
   providedIn: 'root'
 })
 export class CartService {
+
+  public boughtProductsAmount: number;
   public boughtProducts: Product[] = [];
   public productList: Product[] = this.productService.getAllProducts();
 
@@ -39,7 +41,7 @@ export class CartService {
     return products.reduce((acc: number, val: Product) => acc + val.amount, 0);
   }
 
-  decreseProductAmount(product: Product): void {
+  decreaseProductAmount(product: Product): void {
     const productInList: Product = this.productService.getProduct(product);
 
     product.amount -= 1;
@@ -54,7 +56,7 @@ export class CartService {
     }
   }
 
-  increseProductAmount(product: Product): void {
+  increaseProductAmount(product: Product): void {
     const productInList: Product = this.productService.getProduct(product);
 
     product.amount += 1;
