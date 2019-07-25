@@ -1,6 +1,6 @@
-import { Product } from 'src/app/core/interfaces';
 import { Component, OnInit, DoCheck } from '@angular/core';
 
+import { Product } from 'src/app/core/interfaces';
 import { CartService } from './../../services';
 
 @Component({
