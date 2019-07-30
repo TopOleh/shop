@@ -1,3 +1,4 @@
+import { Observable, from, of } from 'rxjs';
 import { Injectable } from '@angular/core';
 import { Product } from 'src/app/core/interfaces';
 import { ProductService } from 'src/app/products/services';
@@ -9,7 +10,7 @@ export class CartService {
 
   public boughtProductsAmount: number;
   public boughtProducts: Product[] = [];
-  public productList: Product[] = this.productService.getAllProducts();
+  public boughtProducts1: Observable<Product[]> = of(this.boughtProducts);
 
   constructor(private productService: ProductService) { }
 
@@ -29,8 +30,8 @@ export class CartService {
     return this.boughtProducts.filter((p: Product) => p.name === product.name)[0];
   }
 
-  getAllBoughtProducts(): Product[] {
-    return this.boughtProducts;
+  getAllBoughtProducts(): Observable<Product[]> {
+    return this.boughtProducts1;
   }
 
   calcCartSum(products: Product[]): number {
