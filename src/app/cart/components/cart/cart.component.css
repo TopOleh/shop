@@ -2,3 +2,10 @@
   display: flex;
   flex-flow: row wrap;
 }
+
+.cart-list__item.hovered {
+  transform: translate(-1px, -5px);
+}
+.cart-list__item.hovered .product-item {
+  box-shadow: 0px 0px 10px -1px green;
+}

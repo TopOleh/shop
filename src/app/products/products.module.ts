@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { SharedModule } from 'src/app/shared';
+
+import { ProductAvailableDirective } from './directives';
+
 import {
   ProductComponent,
   ProductListComponent
@@ -9,10 +13,12 @@ import {
 @NgModule({
   declarations: [
     ProductComponent,
-    ProductListComponent
+    ProductListComponent,
+    ProductAvailableDirective
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule
   ],
   exports: [
     ProductComponent,

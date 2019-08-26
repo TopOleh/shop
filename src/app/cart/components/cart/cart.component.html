@@ -1,3 +1,15 @@
-<div class="cart-list" *ngIf="boughtProducts">
-  <app-product *ngFor="let product of boughtProducts" [product]="product"></app-product>
+<div class="cart-list" *ngIf="boughtProducts.length">
+  <app-cart-item
+    class="cart-list__item"
+    *ngFor="let product of boughtProducts"
+    [product]="product"
+    (remove)="removeProduct(product)"
+    (increase)="increaseProduct(product)"
+    (decrease)="decreaseProduct(product)"
+    appProductHover>
+  </app-cart-item>
+
+  <div>
+    <p>You have already bought {{ cartItems }} sum: {{ sum }}</p>
+  </div>
 </div>
