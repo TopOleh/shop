@@ -4,6 +4,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 4,
     price: 95
   },
   {
@@ -12,6 +13,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 4,
     price: 1249
   }, {
     category: 'Laptops',
@@ -19,6 +21,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 4,
     price: 1570
   }, {
     category: 'Laptops',
@@ -26,6 +29,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 4,
     price: 16
   }, {
     category: 'Accessories',
@@ -33,6 +37,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 4,
     price: 29
   }, {
     category: 'Accessories',
@@ -40,6 +45,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 4,
     price: 19
   }, {
     category: 'Laptops',
@@ -47,6 +53,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 4,
     price: 22
   }, {
     category: 'Accessories',
@@ -54,6 +61,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 4,
     price: 459
   }, {
     category: 'Accessories',
@@ -61,6 +69,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 149
   }, {
     category: 'Accessories',
@@ -68,6 +77,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 167
   }, {
     category: 'Accessories',
@@ -75,6 +85,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 512
   }, {
     category: 'Flat',
@@ -82,6 +93,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 230
   }, {
     category: 'Flat',
@@ -89,6 +101,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 285
   }, {
     category: 'Flat',
@@ -96,6 +109,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 345
   }, {
     category: 'Flat',
@@ -103,6 +117,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 399
   }, {
     category: 'Flat',
@@ -110,6 +125,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 430
   }, {
     category: 'Flat',
@@ -117,6 +133,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 1230,
   }, {
     category: 'Printers',
@@ -124,6 +141,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 830
   }, {
     category: 'Printers',
@@ -131,6 +149,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 490
   }, {
     category: 'Printers',
@@ -138,6 +157,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 349
   }, {
     category: 'Printers',
@@ -145,6 +165,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 139
   }, {
     category: 'Printers',
@@ -152,6 +173,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 99,
   }, {
     category: 'Printers',
@@ -159,6 +181,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 170
   }, {
     category: 'Multifunction',
@@ -166,6 +189,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 99,
   }, {
     category: 'Multifunction',
@@ -173,6 +197,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 119
   }, {
     category: 'Mice',
@@ -180,6 +205,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 9,
   }, {
     category: 'Mice',
@@ -187,6 +213,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 7,
   }, {
     category: 'Mice',
@@ -194,6 +221,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 11
   }, {
     category: 'Keyboards',
@@ -201,6 +229,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 14,
   }, {
     category: 'Keyboards',
@@ -208,6 +237,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 16
   }, {
     category: 'Keyboards',
@@ -215,6 +245,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 26
   }, {
     category: 'Mousepads',
@@ -222,6 +253,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 699
   }, {
     category: 'Mousepads',
@@ -229,6 +261,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 899
   }, {
     category: 'Mousepads',
@@ -236,6 +269,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 129
   }, {
     category: 'Computer',
@@ -243,6 +277,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 9,
     price: 14
   }, {
     category: 'Graphic',
@@ -250,6 +285,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 70
   }, {
     category: 'Graphic',
@@ -257,6 +293,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 81
   }, {
     category: 'Graphic',
@@ -264,6 +301,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 101
   }, {
     category: 'Graphic',
@@ -271,6 +309,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 139
   }, {
     category: 'Scanners',
@@ -278,6 +317,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 12
   }, {
     category: 'Scanners',
@@ -285,6 +325,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 89
   }, {
     category: 'Scanners',
@@ -292,6 +333,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 169
   }, {
     category: 'Scanners',
@@ -299,6 +341,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 189
   }, {
     category: 'Multifunction',
@@ -306,6 +349,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 149
   }, {
     category: 'Speakers',
@@ -313,6 +357,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 39,
   }, {
     category: 'Speakers',
@@ -320,6 +365,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 26,
   }, {
     category: 'Speakers',
@@ -327,13 +373,15 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
-    price: 45,
+    amount: 31,
+    price: 431,
   }, {
     category: 'Software',
     name: 'Smart Office',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 899
   }, {
     category: 'Software',
@@ -341,6 +389,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 79
   }, {
     category: 'Software',
@@ -348,6 +397,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 69,
   }, {
     category: 'Software',
@@ -355,6 +405,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 77,
   }, {
     category: 'Software',
@@ -362,13 +413,15 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
-    price: 55,
+    amount: 31,
+    price: 531,
   }, {
     category: 'Software',
     name: 'Smart Internet Antivirus',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 29,
   }, {
     category: 'Software',
@@ -376,6 +429,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 34,
   }, {
     category: 'Software',
@@ -383,6 +437,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 29
   }, {
     category: 'Computer',
@@ -390,6 +445,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 89,
   }, {
     category: 'Computer',
@@ -397,6 +453,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 6
   }, {
     category: 'Computer',
@@ -404,6 +461,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 39,
   }, {
     category: 'Computer',
@@ -411,6 +469,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 23,
   }, {
     category: 'Computer',
@@ -418,6 +477,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 31
   }, {
     category: 'Telecommunications',
@@ -425,6 +485,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 49
   }, {
     category: 'Telecommunications',
@@ -432,6 +493,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 59
   }, {
     category: 'Telecommunications',
@@ -439,6 +501,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 69
   }, {
     category: 'Computer',
@@ -446,13 +509,15 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
-    price: 35,
+    amount: 88,
+    price: 388,
   }, {
     category: 'Keyboards',
     name: 'Cordless Bluetooth Keyboard, english international',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 29
   }, {
     category: 'Flat',
@@ -460,6 +525,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 143
   }, {
     category: 'Mice',
@@ -467,6 +533,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 23
   }, {
     category: 'PCs',
@@ -474,6 +541,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 239
   }, {
     category: 'Servers',
@@ -481,6 +549,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 500
   }, {
     category: 'Servers',
@@ -488,6 +557,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 150
   }, {
     category: 'Servers',
@@ -495,6 +565,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 250
   }, {
     category: 'Flat',
@@ -502,6 +573,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 145
   }, {
     category: 'Flat',
@@ -509,6 +581,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 119
   }, {
     category: 'Flat',
@@ -516,6 +589,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 899,
   }, {
     category: 'Accessories',
@@ -523,6 +597,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 549,
   }, {
     category: 'Accessories',
@@ -530,6 +605,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 549,
   }, {
     category: 'Accessories',
@@ -537,6 +613,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 549,
   }, {
     category: 'Accessories',
@@ -544,6 +621,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 549,
   }, {
     category: 'Accessories',
@@ -551,6 +629,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 49,
   }, {
     category: 'Accessories',
@@ -558,6 +637,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 39,
   }, {
     category: 'Accessories',
@@ -565,6 +645,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 29,
   }, {
     category: 'Accessories',
@@ -572,6 +653,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 299,
   }, {
     category: 'Accessories',
@@ -579,6 +661,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 167,
   }, {
     category: 'Accessories',
@@ -586,6 +669,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 63,
   }, {
     category: 'Accessories',
@@ -593,6 +677,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 45
   }, {
     category: 'Accessories',
@@ -600,6 +685,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 288,
   }, {
     category: 'Accessories',
@@ -607,6 +693,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 13
   }, {
     category: 'Accessories',
@@ -614,6 +701,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 889
   }, {
     category: 'Accessories',
@@ -621,6 +709,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 679
   }, {
     category: 'Accessories',
@@ -628,6 +717,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 853
   }, {
     category: 'Accessories',
@@ -635,6 +725,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 469
   }, {
     category: 'Accessories',
@@ -642,6 +733,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 8
   }, {
     category: 'Accessories',
@@ -649,6 +741,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 29
   }, {
     category: 'Accessories',
@@ -656,6 +749,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 44
   }, {
     category: 'Accessories',
@@ -663,6 +757,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 449
   }, {
     category: 'Accessories',
@@ -670,6 +765,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 2499
   }, {
     category: 'Desktop',
@@ -677,6 +773,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 170
   }, {
     category: 'Desktop',
@@ -684,6 +781,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 120
   }, {
     category: 'Desktop',
@@ -691,6 +789,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 900,
   }, {
     category: 'Desktop',
@@ -698,6 +797,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 88,
     price: 600
   }, {
     category: 'Accessories',
@@ -705,6 +805,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 79,
   }, {
     category: 'Laptops',
@@ -712,6 +813,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 799,
   }, {
     category: 'Laptops',
@@ -719,6 +821,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 799,
   }, {
     category: 'Laptops',
@@ -726,6 +829,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 1199
   }, {
     category: 'Laptops',
@@ -733,6 +837,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 1388
   }, {
     category: 'Accessories',
@@ -740,6 +845,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 0,
   }, {
     category: 'Tablets',
@@ -747,6 +853,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 749,
   }, {
     category: 'Smartphones',
@@ -754,6 +861,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 30,
   }, {
     category: 'Smartphones',
@@ -761,6 +869,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 33,
   }, {
     category: 'Accessories',
@@ -768,6 +877,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 20,
   }, {
     category: 'Accessories',
@@ -775,13 +885,15 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
-    price: 15,
+    amount: 31,
+    price: 131,
   }, {
     category: 'Accessories',
     name: 'Camcorder View',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 138
   }, {
     category: 'Smartphones',
@@ -789,6 +901,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 833,
   }, {
     category: 'Smartphones',
@@ -796,6 +909,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 599,
   }, {
     category: 'Accessories',
@@ -803,13 +917,15 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
-    price: 25,
+    amount: 31,
+    price: 231,
   }, {
     category: 'Laptops',
     name: 'Astro Laptop 1516',
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 98
   }, {
     category: 'Smartphones',
@@ -817,6 +933,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 649,
   }, {
     category: 'Laptops',
@@ -824,6 +941,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 97
   }, {
     category: 'Flat',
@@ -831,6 +949,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 250
   }, {
     category: 'Flat',
@@ -838,6 +957,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 270
   }, {
     category: 'Smartphones',
@@ -845,6 +965,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 549,
   }, {
     category: 'Smartphones',
@@ -852,6 +973,7 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 549,
   }, {
     category: 'Smartphones',
@@ -859,5 +981,6 @@ export const PRODUCTS_LIST = [{
     dependsOn: ['electricity', 'space', 'user managing'],
     isAvailable: true,
     description: 'description',
+    amount: 31,
     price: 529,
   }];

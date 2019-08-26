@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Product } from '../../interfaces';
+import { Product } from 'src/app/core/interfaces';
 
 import { ProductService } from '../../services';
 import { CartService } from './../../../cart/services/';
@@ -23,6 +23,10 @@ export class ProductListComponent implements OnInit {
   }
 
   onBuyProduct(product: Product) {
+    product.amount -= 1;
+    if (product.amount === 0) {
+      product.isAvailable = false;
+    }
     this.cartService.addToCart(product);
   }
 }

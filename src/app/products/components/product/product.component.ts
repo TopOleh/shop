@@ -1,12 +1,12 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 
-import { Product } from './../../interfaces';
+import { Product } from '../../../core/interfaces';
 
 @Component({
   selector: 'app-product',
   templateUrl: './product.component.html',
-  styleUrls: ['./product.component.css']
+  styleUrls: ['./product.component.css'],
 })
 export class ProductComponent implements OnInit {
   @Input() product: Product;
@@ -19,7 +19,6 @@ export class ProductComponent implements OnInit {
 
   onBuy(product: Product): void {
     console.log('You have bought a ', product);
-    product.isAvailable = false;
     this.buyProduct.emit(product);
   }
 
