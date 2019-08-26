@@ -9,7 +9,7 @@ export class CartService {
 
   public boughtProductsAmount: number;
   public boughtProducts: Product[] = [];
-  public productList: Product[] = this.productService.getAllProducts();
+  public productList: Product[] = this.productService.getProducts();
 
   constructor(private productService: ProductService) { }
 

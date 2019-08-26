@@ -11,7 +11,7 @@ export class ProductService {
 
   constructor() { }
 
-  getAllProducts(): Product[] {
+  getProducts(): Product[] {
     return PRODUCTS_LIST.map(product => {
       const newCategory = Categories[product.category];
       product.category = newCategory;

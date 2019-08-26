@@ -1,5 +1,6 @@
 <div class="cart-list" *ngIf="boughtProducts.length">
   <app-cart-item
+    class="cart-list__item"
     *ngFor="let product of boughtProducts"
     [product]="product"
     (remove)="removeProduct(product)"

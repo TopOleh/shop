@@ -34,3 +34,7 @@
   border-radius: 10px;
   width: 50%;
 }
+
+:host(.hovered) .product-item {
+  background-color: lightseagreen;
+}

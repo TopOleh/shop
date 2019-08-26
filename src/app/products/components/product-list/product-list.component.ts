@@ -19,7 +19,7 @@ export class ProductListComponent implements OnInit {
     ) { }
 
   ngOnInit() {
-    this.products = this.productService.getAllProducts();
+    this.products = this.productService.getProducts();
   }
 
   onBuyProduct(product: Product) {
