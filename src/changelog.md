@@ -16,3 +16,5 @@ HW-02
 15) Added title to app component;
 16) Created hover directive and in/out stock directive;
 17) Styled components;
+HW-03
+18)Now you can select how many products you would like to add to cart;

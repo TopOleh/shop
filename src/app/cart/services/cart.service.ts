@@ -13,14 +13,24 @@ export class CartService {
 
   constructor(private productService: ProductService) { }
 
-  addToCart(product: Product): void {
+  addToCart(product: Product): boolean {
     const sameProduct: Product = this.getBoughtProduct(product);
 
+    if (product.qty > product.amount) {
+      return false;
+    }
+
+    product.amount -= product.qty;
+
+    if (product.amount === 0) {
+      product.isAvailable = false;
+    }
+
     if (sameProduct) {
-      sameProduct.amount += 1;
+      sameProduct.qty += product.qty;
     } else {
       const boughtProd: Product = Object.create(product);
-      boughtProd.amount = 1;
+      boughtProd.qty = product.qty;
       this.boughtProducts.push(boughtProd);
     }
   }
@@ -34,24 +44,24 @@ export class CartService {
   }
 
   calcCartSum(products: Product[]): number {
-    return products.reduce((acc: number, val: Product) => acc + (val.price * val.amount), 0);
+    return products.reduce((acc: number, val: Product) => acc + (val.price * val.qty), 0);
   }
 
   calcCartAmount(products: Product[]): number {
-    return products.reduce((acc: number, val: Product) => acc + val.amount, 0);
+    return products.reduce((acc: number, val: Product) => acc + val.qty, 0);
   }
 
   decreaseProductAmount(product: Product): void {
     const productInList: Product = this.productService.getProduct(product);
 
-    product.amount -= 1;
+    product.qty -= 1;
     productInList.amount += 1;
 
-    if (product.amount <= 0) {
+    if (product.qty <= 0) {
       this.removeProduct(product);
     }
 
-    if (productInList.amount > 0) {
+    if (productInList.qty < productInList.amount) {
       productInList.isAvailable = true;
     }
   }
@@ -59,10 +69,10 @@ export class CartService {
   increaseProductAmount(product: Product): void {
     const productInList: Product = this.productService.getProduct(product);
 
-    product.amount += 1;
+    product.qty += 1;
     productInList.amount -= 1;
 
-    if (productInList.amount === 0) {
+    if (productInList.amount === product.qty) {
       productInList.isAvailable = false;
     }
   }
@@ -73,7 +83,7 @@ export class CartService {
 
     this.boughtProducts.splice(prodToRemove, 1);
 
-    productInList.amount += product.amount;
+    productInList.amount += product.qty;
     productInList.isAvailable = true;
   }
 }

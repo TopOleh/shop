@@ -6,4 +6,5 @@ export interface Product {
   category: string;
   isAvailable: boolean;
   dependsOn: string[];
+  qty?: number;
 }
