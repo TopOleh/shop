@@ -6,4 +6,11 @@ import { Injectable } from '@angular/core';
 export class LocalStorageService {
 
   constructor() { }
+
+  setItem() {}
+
+  getItem() {}
+
+  removeItem() {}
+
 }
