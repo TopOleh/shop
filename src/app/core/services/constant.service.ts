@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
+import { CoreModule } from '../core.module';
 
 @Injectable({
-  providedIn: 'root',
+  providedIn: CoreModule,
   useValue: { App: 'TaskManager', Ver: '1.0' }
 })
 

@@ -2,12 +2,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { ProductHoverDirective } from './directives';
+import { HostInspectDirective } from './directives/host-inspect.directive';
 
 @NgModule({
-  declarations: [ProductHoverDirective],
+  declarations: [ProductHoverDirective, HostInspectDirective],
   imports: [
     CommonModule
   ],
-  exports: [ProductHoverDirective]
+  exports: [ProductHoverDirective, HostInspectDirective ]
 })
 export class SharedModule { }

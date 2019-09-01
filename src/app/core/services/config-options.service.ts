@@ -1,10 +1,6 @@
-import { Injectable } from '@angular/core';
 import { ConfigOptions } from '../interfaces';
 import { ConfigOptionsModel } from '../models';
 
-@Injectable({
-  providedIn: 'root'
-})
 export class ConfigOptionsService {
 
   public configOptions: ConfigOptions = new ConfigOptionsModel(1, 'somelogin', 'somelogin@email.com', 'vasa');
