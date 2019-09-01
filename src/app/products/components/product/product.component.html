@@ -9,8 +9,8 @@
   <div>
     <span>Price: <b>{{product.price}}</b></span>
     <p *ngIf="product.isAvailable">Available: <b>{{product.amount}}</b></p>
+    <input #productInput [(ngModel)]="product.qty" type="number" max="product.amount" min="1">
   </div>
-
 
   <div  class="product-bottom__wrapper">
     <ng-container *ngIf="product.isAvailable; then inStock; else outOfStock"></ng-container>

@@ -5,7 +5,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 4,
-    price: 95
+    price: 95,
+    qty: 1,
   },
   {
     category: 'Laptops',
@@ -14,7 +15,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 4,
-    price: 1249
+    price: 1249,
+    qty: 1,
   }, {
     category: 'Laptops',
     name: 'Notebook Basic 18',
@@ -22,7 +24,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 4,
-    price: 1570
+    price: 1570,
+    qty: 1,
   }, {
     category: 'Laptops',
     name: 'Notebook Basic 19',
@@ -30,7 +33,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 4,
-    price: 16
+    price: 16,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'ITelO Vault',
@@ -38,7 +42,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 4,
-    price: 29
+    price: 29,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Notebook Professional 15',
@@ -46,7 +51,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 4,
-    price: 19
+    price: 19,
+    qty: 1,
   }, {
     category: 'Laptops',
     name: 'Notebook Professional 17',
@@ -54,7 +60,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 4,
-    price: 22
+    price: 22,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'ITelO Vault Net',
@@ -62,7 +69,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 4,
-    price: 459
+    price: 459,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'ITelO Vault SAT',
@@ -70,7 +78,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 9,
-    price: 149
+    price: 149,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Comfort Easy',
@@ -78,7 +87,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 9,
-    price: 167
+    price: 167,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Comfort Senior',
@@ -86,7 +96,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 9,
-    price: 512
+    price: 512,
+    qty: 1,
   }, {
     category: 'Flat',
     name: 'Ergo Screen E-I',
@@ -94,7 +105,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 9,
-    price: 230
+    price: 230,
+    qty: 1,
   }, {
     category: 'Flat',
     name: 'Ergo',
@@ -102,7 +114,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 9,
-    price: 285
+    price: 285,
+    qty: 1,
   }, {
     category: 'Flat',
     name: 'Ergo',
@@ -110,7 +123,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 9,
-    price: 345
+    price: 345,
+    qty: 1,
   }, {
     category: 'Flat',
     name: 'Flat',
@@ -118,7 +132,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 9,
-    price: 399
+    price: 399,
+    qty: 1,
   }, {
     category: 'Flat',
     name: 'Flat',
@@ -126,7 +141,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 9,
-    price: 430
+    price: 430,
+    qty: 1,
   }, {
     category: 'Flat',
     name: 'Flat',
@@ -135,6 +151,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 9,
     price: 1230,
+    qty: 1,
   }, {
     category: 'Printers',
     name: 'Laser Professional Eco',
@@ -142,7 +159,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 9,
-    price: 830
+    price: 830,
+    qty: 1,
   }, {
     category: 'Printers',
     name: 'Laser Basic',
@@ -150,7 +168,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 9,
-    price: 490
+    price: 490,
+    qty: 1,
   }, {
     category: 'Printers',
     name: 'Laser Allround',
@@ -158,7 +177,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 9,
-    price: 349
+    price: 349,
+    qty: 1,
   }, {
     category: 'Printers',
     name: 'Ultra Jet Super Color',
@@ -166,7 +186,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 9,
-    price: 139
+    price: 139,
+    qty: 1,
   }, {
     category: 'Printers',
     name: 'Ultra Jet Mobile',
@@ -175,6 +196,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 9,
     price: 99,
+    qty: 1,
   }, {
     category: 'Printers',
     name: 'Ultra Jet Super Highspeed',
@@ -182,7 +204,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 9,
-    price: 170
+    price: 170,
+    qty: 1,
   }, {
     category: 'Multifunction',
     name: 'Multi Print',
@@ -191,6 +214,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 9,
     price: 99,
+    qty: 1,
   }, {
     category: 'Multifunction',
     name: 'Multi Color',
@@ -198,7 +222,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 9,
-    price: 119
+    price: 119,
+    qty: 1,
   }, {
     category: 'Mice',
     name: 'Cordless Mouse',
@@ -207,6 +232,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 9,
     price: 9,
+    qty: 1,
   }, {
     category: 'Mice',
     name: 'Speed Mouse',
@@ -215,6 +241,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 9,
     price: 7,
+    qty: 1,
   }, {
     category: 'Mice',
     name: 'Track Mouse',
@@ -222,7 +249,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 9,
-    price: 11
+    price: 11,
+    qty: 1,
   }, {
     category: 'Keyboards',
     name: 'Ergonomic Keyboard',
@@ -231,6 +259,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 9,
     price: 14,
+    qty: 1,
   }, {
     category: 'Keyboards',
     name: 'Internet Keyboard',
@@ -238,7 +267,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 9,
-    price: 16
+    price: 16,
+    qty: 1,
   }, {
     category: 'Keyboards',
     name: 'Media Keyboard',
@@ -246,7 +276,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 9,
-    price: 26
+    price: 26,
+    qty: 1,
   }, {
     category: 'Mousepads',
     name: 'Mousepad',
@@ -254,7 +285,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 9,
-    price: 699
+    price: 699,
+    qty: 1,
   }, {
     category: 'Mousepads',
     name: 'Ergo Mousepad',
@@ -262,7 +294,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 9,
-    price: 899
+    price: 899,
+    qty: 1,
   }, {
     category: 'Mousepads',
     name: 'Designer Mousepad',
@@ -270,7 +303,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 9,
-    price: 129
+    price: 129,
+    qty: 1,
   }, {
     category: 'Computer',
     name: 'Universal card reader',
@@ -278,7 +312,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 9,
-    price: 14
+    price: 14,
+    qty: 1,
   }, {
     category: 'Graphic',
     name: 'Proctra X',
@@ -286,7 +321,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 31,
-    price: 70
+    price: 70,
+    qty: 1,
   }, {
     category: 'Graphic',
     name: 'Gladiator MX',
@@ -294,7 +330,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 31,
-    price: 81
+    price: 81,
+    qty: 1,
   }, {
     category: 'Graphic',
     name: 'Hurricane GX',
@@ -302,7 +339,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 31,
-    price: 101
+    price: 101,
+    qty: 1,
   }, {
     category: 'Graphic',
     name: 'Hurricane GX/LN',
@@ -310,7 +348,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 31,
-    price: 139
+    price: 139,
+    qty: 1,
   }, {
     category: 'Scanners',
     name: 'Photo Scan',
@@ -318,7 +357,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 31,
-    price: 12
+    price: 12,
+    qty: 1,
   }, {
     category: 'Scanners',
     name: 'Power Scan',
@@ -326,7 +366,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 31,
-    price: 89
+    price: 89,
+    qty: 1,
   }, {
     category: 'Scanners',
     name: 'Jet Scan Professional',
@@ -334,7 +375,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 31,
-    price: 169
+    price: 169,
+    qty: 1,
   }, {
     category: 'Scanners',
     name: 'Jet Scan Professional',
@@ -342,7 +384,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 31,
-    price: 189
+    price: 189,
+    qty: 1,
   }, {
     category: 'Multifunction',
     name: 'Copymaster',
@@ -350,7 +393,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 31,
-    price: 149
+    price: 149,
+    qty: 1,
   }, {
     category: 'Speakers',
     name: 'Surround Sound',
@@ -359,6 +403,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 39,
+    qty: 1,
   }, {
     category: 'Speakers',
     name: 'Blaster Extreme',
@@ -367,6 +412,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 26,
+    qty: 1,
   }, {
     category: 'Speakers',
     name: 'Sound Booster',
@@ -375,6 +421,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 431,
+    qty: 1,
   }, {
     category: 'Software',
     name: 'Smart Office',
@@ -382,7 +429,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 31,
-    price: 899
+    price: 899,
+    qty: 1,
   }, {
     category: 'Software',
     name: 'Smart Design',
@@ -390,7 +438,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 31,
-    price: 79
+    price: 79,
+    qty: 1,
   }, {
     category: 'Software',
     name: 'Smart Network',
@@ -399,6 +448,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 69,
+    qty: 1,
   }, {
     category: 'Software',
     name: 'Smart Multimedia',
@@ -407,6 +457,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 77,
+    qty: 1,
   }, {
     category: 'Software',
     name: 'Smart Games',
@@ -415,6 +466,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 531,
+    qty: 1,
   }, {
     category: 'Software',
     name: 'Smart Internet Antivirus',
@@ -423,6 +475,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 29,
+    qty: 1,
   }, {
     category: 'Software',
     name: 'Smart Firewall',
@@ -431,6 +484,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 34,
+    qty: 1,
   }, {
     category: 'Software',
     name: 'Smart Money',
@@ -438,7 +492,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 31,
-    price: 29
+    price: 29,
+    qty: 1,
   }, {
     category: 'Computer',
     name: 'PC Lock',
@@ -447,6 +502,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 89,
+    qty: 1,
   }, {
     category: 'Computer',
     name: 'Notebook Lock',
@@ -454,7 +510,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 6
+    price: 6,
+    qty: 1,
   }, {
     category: 'Computer',
     name: 'Web cam reality',
@@ -463,6 +520,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 88,
     price: 39,
+    qty: 1,
   }, {
     category: 'Computer',
     name: 'Screen clean',
@@ -471,6 +529,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 88,
     price: 23,
+    qty: 1,
   }, {
     category: 'Computer',
     name: 'Fabric bag professional',
@@ -478,7 +537,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 31
+    price: 31,
+    qty: 1,
   }, {
     category: 'Telecommunications',
     name: 'Wireless DSL Router',
@@ -486,7 +546,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 49
+    price: 49,
+    qty: 1,
   }, {
     category: 'Telecommunications',
     name: 'Wireless DSL Router / Repeater',
@@ -494,7 +555,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 59
+    price: 59,
+    qty: 1,
   }, {
     category: 'Telecommunications',
     name: 'Wireless DSL Router / Repeater and Print Server',
@@ -502,7 +564,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 69
+    price: 69,
+    qty: 1,
   }, {
     category: 'Computer',
     name: 'USB Stick',
@@ -511,6 +574,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 88,
     price: 388,
+    qty: 1,
   }, {
     category: 'Keyboards',
     name: 'Cordless Bluetooth Keyboard, english international',
@@ -518,7 +582,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 29
+    price: 29,
+    qty: 1,
   }, {
     category: 'Flat',
     name: 'Flat',
@@ -526,7 +591,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 143
+    price: 143,
+    qty: 1,
   }, {
     category: 'Mice',
     name: 'Pocket Mouse',
@@ -534,7 +600,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 23
+    price: 23,
+    qty: 1,
   }, {
     category: 'PCs',
     name: 'PC Power Station',
@@ -542,7 +609,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 239
+    price: 239,
+    qty: 1,
   }, {
     category: 'Servers',
     name: 'Server Basic',
@@ -550,7 +618,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 500
+    price: 500,
+    qty: 1,
   }, {
     category: 'Servers',
     name: 'Server Professional',
@@ -558,7 +627,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 150
+    price: 150,
+    qty: 1,
   }, {
     category: 'Servers',
     name: 'Server Power Pro',
@@ -566,7 +636,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 250
+    price: 250,
+    qty: 1,
   }, {
     category: 'Flat',
     name: 'Flat',
@@ -574,7 +645,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 145
+    price: 145,
+    qty: 1,
   }, {
     category: 'Flat',
     name: 'Flat',
@@ -582,7 +654,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 119
+    price: 119,
+    qty: 1,
   }, {
     category: 'Flat',
     name: 'Flat',
@@ -591,6 +664,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 88,
     price: 899,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Platinberry',
@@ -599,6 +673,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 88,
     price: 549,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Goldberry',
@@ -607,6 +682,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 88,
     price: 549,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Silverberry',
@@ -615,6 +691,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 88,
     price: 549,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Copperberry',
@@ -623,6 +700,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 88,
     price: 549,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Lovely Sound 51 Wireless',
@@ -631,6 +709,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 88,
     price: 49,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Lovely Sound 51',
@@ -639,6 +718,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 88,
     price: 39,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Lovely Sound Stereo',
@@ -647,6 +727,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 88,
     price: 29,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Power Pro Player 80',
@@ -655,6 +736,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 88,
     price: 299,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Power Pro Player 40',
@@ -663,6 +745,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 88,
     price: 167,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'ITelo Jog-Mate',
@@ -671,6 +754,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 88,
     price: 63,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'ITelo MusicStick',
@@ -678,7 +762,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 45
+    price: 45,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Record Movie',
@@ -687,6 +772,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 88,
     price: 288,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Play Movie',
@@ -694,7 +780,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 13
+    price: 13,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Beam Breaker B-3',
@@ -702,7 +789,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 889
+    price: 889,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Beam Breaker B-2',
@@ -710,7 +798,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 679
+    price: 679,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Portable DVD Player with 9" LCD Monitor',
@@ -718,7 +807,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 853
+    price: 853,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Beam Breaker B-1',
@@ -726,7 +816,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 469
+    price: 469,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Removable CD/DVD Laser Labels',
@@ -734,7 +825,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 8
+    price: 8,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Audio/Video Cable Kit - 4m',
@@ -742,7 +834,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 29
+    price: 29,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'CD/DVD case: 264 sleeves',
@@ -750,7 +843,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 44
+    price: 44,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: '10" Portable DVD player',
@@ -758,7 +852,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 449
+    price: 449,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: '7" Widescreen Portable DVD Player w MP3',
@@ -766,7 +861,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 2499
+    price: 2499,
+    qty: 1,
   }, {
     category: 'Desktop',
     name: 'Gaming Monster Pro',
@@ -774,7 +870,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 170
+    price: 170,
+    qty: 1,
   }, {
     category: 'Desktop',
     name: 'Gaming Monster',
@@ -782,7 +879,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 120
+    price: 120,
+    qty: 1,
   }, {
     category: 'Desktop',
     name: 'Family PC Pro',
@@ -791,6 +889,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 88,
     price: 900,
+    qty: 1,
   }, {
     category: 'Desktop',
     name: 'Family PC Basic',
@@ -798,7 +897,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 88,
-    price: 600
+    price: 600,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Travel Adapter',
@@ -807,6 +907,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 79,
+    qty: 1,
   }, {
     category: 'Laptops',
     name: 'ITelO FlexTop I4000',
@@ -815,6 +916,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 799,
+    qty: 1,
   }, {
     category: 'Laptops',
     name: 'ITelO FlexTop I6300c',
@@ -823,6 +925,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 799,
+    qty: 1,
   }, {
     category: 'Laptops',
     name: 'ITelO FlexTop I9100',
@@ -830,7 +933,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 31,
-    price: 1199
+    price: 1199,
+    qty: 1,
   }, {
     category: 'Laptops',
     name: 'ITelO FlexTop I9800',
@@ -838,7 +942,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 31,
-    price: 1388
+    price: 1388,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Flyer',
@@ -847,6 +952,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 0,
+    qty: 1,
   }, {
     category: 'Tablets',
     name: 'Maxi Tablet',
@@ -855,6 +961,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 749,
+    qty: 1,
   }, {
     category: 'Smartphones',
     name: 'Smartphone Beta',
@@ -863,6 +970,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 30,
+    qty: 1,
   }, {
     category: 'Smartphones',
     name: 'e-Book Reader ReadMe',
@@ -871,6 +979,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 33,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Tablet Pouch',
@@ -879,6 +988,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 20,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Smartphone Cover',
@@ -887,6 +997,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 131,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Camcorder View',
@@ -894,7 +1005,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 31,
-    price: 138
+    price: 138,
+    qty: 1,
   }, {
     category: 'Smartphones',
     name: 'Mini Tablet',
@@ -903,6 +1015,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 833,
+    qty: 1,
   }, {
     category: 'Smartphones',
     name: 'Smartphone Alpha',
@@ -911,6 +1024,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 599,
+    qty: 1,
   }, {
     category: 'Accessories',
     name: 'Smartphone Leather Case',
@@ -919,6 +1033,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 231,
+    qty: 1,
   }, {
     category: 'Laptops',
     name: 'Astro Laptop 1516',
@@ -926,7 +1041,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 31,
-    price: 98
+    price: 98,
+    qty: 1,
   }, {
     category: 'Smartphones',
     name: 'Astro Phone 6',
@@ -935,6 +1051,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 649,
+    qty: 1,
   }, {
     category: 'Laptops',
     name: 'Benda Laptop 1408',
@@ -942,7 +1059,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 31,
-    price: 97
+    price: 97,
+    qty: 1,
   }, {
     category: 'Flat',
     name: 'Bending Screen 21HD',
@@ -950,7 +1068,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 31,
-    price: 250
+    price: 250,
+    qty: 1,
   }, {
     category: 'Flat',
     name: 'Broad Screen 22HD',
@@ -958,7 +1077,8 @@ export const PRODUCTS_LIST = [{
     isAvailable: true,
     description: 'description',
     amount: 31,
-    price: 270
+    price: 270,
+    qty: 1,
   }, {
     category: 'Smartphones',
     name: 'Cerdik Phone 7',
@@ -967,6 +1087,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 549,
+    qty: 1,
   }, {
     category: 'Smartphones',
     name: 'Cepat Tablet 105',
@@ -975,6 +1096,7 @@ export const PRODUCTS_LIST = [{
     description: 'description',
     amount: 31,
     price: 549,
+    qty: 1,
   }, {
     category: 'Smartphones',
     name: 'Cepat Tablet 8',

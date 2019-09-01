@@ -23,10 +23,6 @@ export class ProductListComponent implements OnInit {
   }
 
   onBuyProduct(product: Product) {
-    product.amount -= 1;
-    if (product.amount === 0) {
-      product.isAvailable = false;
-    }
     this.cartService.addToCart(product);
   }
 }

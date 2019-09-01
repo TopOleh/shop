@@ -1,6 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
-
 import { Product } from '../../../core/interfaces';
 
 @Component({
@@ -14,8 +13,7 @@ export class ProductComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   onBuy(product: Product): void {
     console.log('You have bought a ', product);
